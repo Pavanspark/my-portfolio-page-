@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PORTFOLIO WEB PAGE</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<img src="pavan.jpg" alt="Pavan" class="profile-image" />
+
+<body>
+
+  <!-- Menu -->
+  <nav class="menu">
+    <button data-section="about">About</button>
+    <button data-section="resume">Resume</button>
+    <button data-section="achivements">achivements</button>
+    <button data-section="contact">Contact</button>
+  </nav>
+
+  <!-- Typing Graphic -->
+  <div class="typing-display"></div>
+
+<!-- About Section -->
+  <section id="about" class="tab-section active" data-code='ABOUT ME'>
+    <h1>About Me</h1>
+    <p id="typing-text"></p>
+  </section>
+
+<section id="resume" class="tab-section" data-code='RESUME'>
+  <h1>Resume</h1>
+  <a href="resume.pdf" download="Resume.pdf">
+    <button>OPEN Resume</button>
+  </a>
+</section>
+
+  <section id="achivements" class="tab-section" data-code='ACHIVEMENTS'>
+  <h1>Projects</h1>
+
+  <!-- Certificate 1 -->
+  <div class="certificate">
+    <h3>ADHOC HACKATHON  CERTIFICATE </h3>
+    <p>I am pleased to share that I have been awarded a Certificate of Participation in the Adhoc Hackathon. This experience enhanced my skills in teamwork, problem-solving, and applying technical knowledge to real-world challenges..</p>
+    <a href="adhoc hackton.pdf" download="adhoc hackton.pdf" class="download-btn">
+OPEN CERTIFICATE    </a>
+  </div>
+
+<!-- Certificate 2 -->
+  <div class="certificate">
+    <h3>C CERTIFICATE</h3>
+    <p>I am pleased to share that I have successfully earned my C Programming Certificate. This certification has strengthened my skills in programming fundamentals, problem-solving, and algorithmic thinking.
+
+I look forward to applying these skills to future projects and continuing my journey in software development..</p>
+    <a href="c certificate.pdf" download="c certificate.pdf" class="download-btn">
+   OPEN CERTIFICATE
+    </a>
+  </div>
+
+<!-- Certificate 3 -->
+  <div class="certificate">
+    <h3>FULL STACK DEVELOPER CERTIFICATE </h3>
+    <p>I am pleased to announce that I have completed my Full Stack Developer Certification. This achievement has strengthened my ability to design, develop, and deploy full-stack applications, further supporting my career in software development..</p>
+    <a href="full stack developer.pdf" download="full stack developer.pdf" class="download-btn">
+    OPEN CERTIFICATE
+    </a>
+  </div>
+
+<!-- Certificate 3 -->
+  <div class="certificate">
+    <h3>PYTHON CERTIFICATE </h3>
+    <p>Thrilled to have earned my Python Certificate. This achievement marks a significant step in advancing my technical expertise and supports my journey toward becoming a well-rounded software developer..</p>
+    <a href="python certificate.pdf" download="python certificate.pdf" class="download-btn">
+      OPEN CERTIFICATE
+    </a>
+  </div>
+
+ </section>
+
+<section id="contact" class="tab-section" data-code='CONTACT ME '>
+  <h1>Contact</h1>
+  <p>Feel free to connect with me:</p>
+  <a href="https://www.linkedin.com/in/gandiboina-pavan-kumar-77893228b/" 
+     target="_blank" 
+     class="contact-link">
+     🔗 LinkedIn Profile
+  </a>
+ <!-- Email -->
+  <div class="contact-item">
+  <a href="https://mail.google.com/mail/?view=cm&fs=1&to=pavankumargandiboina956@gmail.com&su=Portfolio%20Contact&body=Hello%20Pavan," 
+     target="_blank" 
+     class="contact-link">
+     📧 Send Email via Gmail
+  </a>
+</div>
+
+</section>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
